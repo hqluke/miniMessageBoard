@@ -1,0 +1,9 @@
+<div class="message-container">
+    <% for (let i = 0; i < messages.length; i++) { %>
+    <div class="message">
+        <h1><%= messages[i].user %></h1>
+        <p><%= messages[i].text %></p>
+        <i> <%= messages[i].added %> </i>
+    </div>
+    <% } %>
+</div>

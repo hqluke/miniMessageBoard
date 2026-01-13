@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title><%= title %></title>
+        <link rel="stylesheet" href="/style.css" />
+    </head>
+    <body>
+        <div class="newMessageContainer">
+            <form method="POST" action="/new">
+                <div class="mname">
+                    <input type="text" name="name" placeholder="Name" />
+                </div>
+                <div class="mtext">
+                    <div class="mtext">
+                        <textarea name="text" placeholder="Message"></textarea>
+                    </div>
+                </div>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <title><%= title %></title>
+        <link rel="stylesheet" href="/style.css" />
+    </head>
+    <body>
+        <div class="new">
+            <a href="/new">New Message</a>
+        </div>
+        <div class="container">
+            <%- include('userMessages', {messages: messages}) %>
+        </div>
+    </body>
+</html>
